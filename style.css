@@ -1,0 +1,189 @@
+/* NAVBAR */
+.header {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #BFBFBF;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: #e87461;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+/* GRID PADRÃO PARA TORNAR INTRUSIVO */
+.grid-pad {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #404040;
+    padding: 0px 10px;
+}
+
+.grid-pad-item {
+    padding: 0px;  
+    font-size: 20px;
+    color: white;
+}
+
+/* GRID CATALOGO */
+
+.grid-catalogue {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #404040;
+    padding: 0px 10px;
+}
+
+.grid-catalogue-item {
+    padding: 20px;  
+    font-size: 20px;
+    color: white;
+}
+
+/* RESPONSIVE FRAME */
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    right: 0;
+    border: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 25%; /* 16:9 Aspect Ratio */
+}
+
+/* BOTÃO REDES SOCIAS */
+.btn-rs {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #e87461;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn-rs span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn-rs span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-rs:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-rs:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* BOTÃO CATALOGO */
+.btn-c {
+    background-color: #e87461;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-c:hover {opacity: 1}
+
+.center-buttons {
+    text-align: center;
+}
+
+li {
+    margin-left: 50%;
+}
+
+/* TABLE ITEM */
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
+  overflow:hidden;padding:10px 10px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-tizx{border-color:#ffffff;color:#ffffff;text-align:left;vertical-align:top}
+
+#item {
+    height: 600px;
+    width: 600px;
+    float: left;
+    margin-right: 20px;
+}
+
+#logo {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#light {
+    font-weight: lighter;
+}
+
+#home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.ctr-text {
+    text-align: center;
+}
+
+#link {
+    text-decoration: none;
+}
